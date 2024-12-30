@@ -13,7 +13,7 @@ This repository contains a Question-and-Answer (QnA) Generator system built usin
 4. Similarity Check
    - The system uses FAISS and sentence embeddings to ensure the uniqueness of the selected QnA pairs by comparing them against a stored dataset.
 5. Save QnA Pairs
-   - Selected QnA pairs are saved into a CSV file, ensuring they are added to a cumulative dataset.
+   - Selected QnA pairs are saved into a CSV file, ensuring they are added to a cumulative dataset. The name of the dataset is QnA_Result (2).csv
 6. Gradio Interface
    - The system provides an intuitive Gradio web interface to interact with the QnA generator and manage QnA pairs.
 
@@ -35,7 +35,7 @@ This repository contains a Question-and-Answer (QnA) Generator system built usin
   The system checks the selected QnA pairs for similarity against a stored dataset to ensure uniqueness.
 - Step 6: Save QnA Pairs
 
-  Selected and unique QnA pairs are appended to a CSV file for further use.
+  Selected and unique QnA pairs are appended to a CSV file [QnA_Result (2).csv] for further use.
 
 ## Example Context and Output
 - Input Example
